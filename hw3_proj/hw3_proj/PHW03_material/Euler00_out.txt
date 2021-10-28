@@ -1,0 +1,18 @@
+Test= 1 flag= 0 VnumInCycle/Path)= 8 Euler_cycle(exec_time= 0.00 msec)
+0
+1
+2
+1
+4
+3
+2
+0
+Test= 2 flag= 1 VnumInCycle/Path)= 7 Euler_path(exec_time= 0.00 msec)
+2
+0
+1
+2
+3
+4
+1
+Test= 3 flag= 2 VnumInCycle/Path)= 0 not_Eulerian(exec_time= 0.00 msec)

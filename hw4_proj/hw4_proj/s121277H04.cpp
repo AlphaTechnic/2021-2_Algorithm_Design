@@ -14,7 +14,7 @@ double closestPairDC(
 
 // sort
 void sortXid(double* X, unsigned* Xid, unsigned* TMP, unsigned N);
-void mergesort(double* X, unsigned* Xid, unsigned* TMP, int low, int high);
+void merge_sort(double* X, unsigned* Xid, unsigned* TMP, int low, int high);
 void merge(double* X, unsigned* Xid, unsigned* TMP, int low, int mid, int high);
 
 // utils
@@ -126,16 +126,16 @@ double closestPairDC(
 
 
 void sortXid(double* X, unsigned* Xid, unsigned* TMP, unsigned N) {
-	mergesort(X, Xid, TMP, 0, N - 1);
+	merge_sort(X, Xid, TMP, 0, N - 1);
 }
 
 
-void mergesort(double* X, unsigned* Xid, unsigned* TMP, int low, int high) {
+void merge_sort(double* X, unsigned* Xid, unsigned* TMP, int low, int high) {
 	if (low >= high) return;
 
 	int mid = (low + high) / 2;
-	mergesort(X, Xid, TMP, low, mid);
-	mergesort(X, Xid, TMP, mid + 1, high);
+	merge_sort(X, Xid, TMP, low, mid);
+	merge_sort(X, Xid, TMP, mid + 1, high);
 	merge(X, Xid, TMP, low, mid, high);
 }
 

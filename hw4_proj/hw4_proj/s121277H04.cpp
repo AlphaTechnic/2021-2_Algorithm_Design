@@ -113,7 +113,6 @@ double closestPairDC(
 		for (int j = i + 1; j < idx; j++) {
 			if ((Y[TMP[j]] - Y[TMP[i]]) * (Y[TMP[j]] - Y[TMP[i]]) >= dsq_min) break;
 
-			//dist는 TMP[i], TMP[j] 두 점 사이의 거리의 제곱을 구한다
 			double tmp = get_dsq(X[TMP[i]], Y[TMP[i]], X[TMP[j]], Y[TMP[j]]);
 			if (tmp < dsq_min) {
 				dsq_min = tmp;

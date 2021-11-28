@@ -39,7 +39,7 @@ int main ( void ) {
 	unsigned *Xid, *Yid, *TMP;
 
 	scanf_s("%d", &TNUM); // read the number of tests
-	for ( int t = 0; t < TNUM; t++ ) {  // for each test case
+	for ( int t = 0; t < TNUM; t++ ) {  // for each test casez
 		scanf_s("%u %d", &N, &THR); // read point number and threshold
 		X  = new double [N];        
 		Y = new double [N];  // allocate arrays

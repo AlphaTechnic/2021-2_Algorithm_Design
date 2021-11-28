@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a176961f-1ae4-4afb-b1bc-1c6692a749bb}</ProjectGuid>
-    <RootNamespace>hw4proj</RootNamespace>
+    <ProjectGuid>{d330b58b-9c05-4ee9-8de3-a58822673c63}</ProjectGuid>
+    <RootNamespace>hw5proj</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PHW04_material.vol1\closestPairMainD&amp;C.cpp" />
-    <ClCompile Include="s121277H04.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input.txt" />
+    <ClCompile Include="ED_material\Edit_Distance_main.cpp" />
+    <ClCompile Include="s121277H05.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,19 @@
+Edit Distance Results (max possible input string size = 128)
+**Test Case   0 (i = 1, d = 1, s = 1) : OP cost =    3
+S  = KITTEN*
+OP = s...s.i
+T  = SITTING
+**Test Case   1 (i = 2, d = 1, s = 3) : OP cost =    8
+S  = *KITT*EN*
+OP = id...id.i
+T  = S*ITTI*NG
+**Test Case   2 (i = 1, d = 2, s = 4) : OP cost =   12
+S  = INTEN****TION
+OP = ddd.diiii....
+T  = ***E*XECUTION
+**Test Case   3 (i = 1, d = 1, s = 1) : OP cost =    2
+S  = STRONG
+OP = ..d..s
+T  = ST*ONE
+
+Total Elapsed Time = 0.001 sec, Max Memory Used = 42 bytes

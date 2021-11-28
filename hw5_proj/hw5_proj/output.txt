@@ -1,19 +1,23 @@
-Edit Distance Results (max possible input string size = 128)
-**Test Case   0 (i = 1, d = 1, s = 1) : OP cost =    3
-S  = KITTEN*
-OP = s...s.i
-T  = SITTING
-**Test Case   1 (i = 2, d = 1, s = 3) : OP cost =    8
-S  = *KITT*EN*
-OP = id...id.i
-T  = S*ITTI*NG
-**Test Case   2 (i = 1, d = 2, s = 4) : OP cost =   12
-S  = INTEN****TION
-OP = ddd.diiii....
-T  = ***E*XECUTION
-**Test Case   3 (i = 1, d = 1, s = 1) : OP cost =    2
-S  = STRONG
-OP = ..d..s
-T  = ST*ONE
+Edit Distance Results (max possible input string size = 40)
+**Test Case   0 (i = 4, d = 1, s = 5) : OP cost =   89
+S  = **********JERN***Q*****FFPK*VHKDZSY
+OP = iiiiiiiiiiddd.iii.iiiiiddd.iddddddd
+T  = XOKBWMGIVL***NBXIQOJDQX***KG*******
+**Test Case   1 (i = 4, d = 8, s = 1) : OP cost =   67
+S  = CKNQOMVRBQOLNGOYWHONKQTZPXDGRHRMNIQZWCZ
+OP = sssssssssssssssssssssssssssssssssssdddd
+T  = BTILFZEGVRPQFAVCBJLOWWJYQQWBYKEOGRU****
+**Test Case   2 (i = 1, d = 1, s = 1) : OP cost =   15
+S  = YHDGOQUA*ITPCZTP
+OP = ssssssssi.ssssdd
+T  = WCWMTTCMZIJKFL**
+**Test Case   3 (i = 1, d = 2, s = 6) : OP cost =   48
+S  = NFOEZ****SD********N**GYSXTTSAOWYZEX
+OP = dddddiiii.diiiiiiii.ii.dd.ddddddd.dd
+T  = *****MQBUS*MVVHQPBFNJXG**X*******Z**
+**Test Case   4 (i = 4, d = 1, s = 2) : OP cost =   53
+S  = MPCHUNILCSUQOGAVWNDFXE****
+OP = ssd.ssssssss.ssss.ssssiiii
+T  = VX*HNWZWAHIYOCWDDNYJQHBQLI
 
-Total Elapsed Time = 0.001 sec, Max Memory Used = 42 bytes
+Total Elapsed Time = 0.001 sec, Max Memory Used = 120 bytes

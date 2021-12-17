@@ -15,11 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="PHW06_materials_Set\Main_code\s121277H06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 7ee723942bb074ef1d6f2ef03b867c63ca1eef58
     <Object Include="PHW06_materials_Set\Main_code\SPT_test_D.obj">
       <Filter>리소스 파일</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Text Include="test.txt">
       <Filter>헤더 파일</Filter>
     </Text>
@@ -40,5 +49,10 @@
     <ClCompile Include="PHW06_materials_Set\Main_code\s121277H06.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+=======
+    <Text Include="PHW06_materials_Set\In_Outs\Graph_In_1k.txt">
+      <Filter>헤더 파일</Filter>
+    </Text>
+>>>>>>> 7ee723942bb074ef1d6f2ef03b867c63ca1eef58
   </ItemGroup>
 </Project>

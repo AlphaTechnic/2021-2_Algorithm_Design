@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c74872f3-38a8-497c-85a5-ebdaea2cb3eb}</ProjectGuid>
+    <ProjectGuid>{45e7e20d-6681-4123-80c8-ffd7df9da376}</ProjectGuid>
     <RootNamespace>hw6proj</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,27 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Object Include="PHW06_materials_Set\Main_code\SPT_test_D.obj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Graph_In_10k.txt" />
-    <Text Include="Graph_In_1k.txt" />
-    <Text Include="Graph_In_3T.txt" />
-    <Text Include="Graph_In_40k.txt" />
-    <Text Include="test.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="PHW06_materials_Set\Main_code\s121277H06.cpp" />
-=======
     <ClCompile Include="PHW06_materials_Set\Main_code\s121277H06.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="PHW06_materials_Set\Main_code\SPT_test_D.obj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="PHW06_materials_Set\In_Outs\Graph_In_1k.txt" />
->>>>>>> 7ee723942bb074ef1d6f2ef03b867c63ca1eef58
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
